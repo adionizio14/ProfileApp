@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "81482538-9f16-4259-bc02-564c8163d019",
+                "Y": 625.25,
+                "RelativeX": 0,
+                "RelativeY": 625,
+                "position": "absolute",
+                "edgeOffsets": 625.25,
+                "style": {
+                    "position": "absolute",
+                    "left": "11.599995930989584%",
+                    "top": "89.3928035982009%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "8d81129e-6348-404d-b4be-7af56ff3579f",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
@@ -69,9 +99,9 @@
                 "Width": 148,
                 "Visible": true,
                 "X": 216,
-                "Y": 529,
+                "Y": 425,
                 "RelativeX": 216,
-                "RelativeY": 529,
+                "RelativeY": 425,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -102,7 +132,7 @@
                 "Disabled": false,
                 "ParentId": "81482538-9f16-4259-bc02-564c8163d019",
                 "position": "absolute",
-                "edgeOffsets": 529.9999999999999
+                "edgeOffsets": 425
             },
             "children": [],
             "id": "c0060ef1-e17e-4d79-b7d1-a6a7870b9957",
@@ -1271,10 +1301,10 @@
                 "Height": 59,
                 "Width": 352,
                 "Visible": true,
-                "X": 12,
-                "Y": 599,
-                "RelativeX": 12,
-                "RelativeY": 599,
+                "X": 11,
+                "Y": 547,
+                "RelativeX": 11,
+                "RelativeY": 547,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(208, 2, 27, 1)",
@@ -1315,7 +1345,7 @@
                 },
                 "ParentId": "81482538-9f16-4259-bc02-564c8163d019",
                 "position": "absolute",
-                "edgeOffsets": 599,
+                "edgeOffsets": 547,
                 "children": ""
             },
             "children": [],
